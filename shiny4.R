@@ -1,3 +1,10 @@
+df <- iris
+library(ggplot2)
+library(dplyr)
+library(shiny)
+library(shinythemes)
+library(psych)
+
 ui <- fluidPage(theme = shinytheme("superhero"),  
                 titlePanel(
                   h3('Testowanie normalności rozkładu "zarkadiuszem"')),
